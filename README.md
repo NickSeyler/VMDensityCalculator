@@ -1,10 +1,10 @@
 # VMDensityCalculator
 
 A VM Density Calculator coded in python.
-<br />
+&nbsp;
 
 Inputs:
-<br />
+&nbsp;
 
 Processor Quantity
 
@@ -13,7 +13,7 @@ Number of Cores
 Gigahertz
 
 RAM Per Host
-<br />
+&nbsp;
 
 vCPU to Core Ratio
 
@@ -22,15 +22,15 @@ Cores assigned to Hypervisor
 Ram Assigned to Hypervisor
 
 Hyperthreading (yes or no)
-<br />
+&nbsp;
 
 Guest vCPUs Assigned
 
 RAM per Guest
-<br />
+&nbsp;
 
 Outputs:
-<br />
+&nbsp;
 
 Total Number of VMs
 
