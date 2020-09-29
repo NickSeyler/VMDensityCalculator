@@ -10,7 +10,6 @@ Number of Cores
 Gigahertz
 RAM Per Host
 
-
 vCPU to Core Ratio
 Cores assigned to Hypervisor
 Ram Assigned to Hypervisor
