@@ -27,8 +27,9 @@ class ButtonCollection:
 
         megahertz_per_vm = 0
 
-        # user input's order: [0]processor processor_quantity, [1]number of cores, [2]vcpu to core ratio, [3]hypervisor cores,
-        # [4]guest vcpus, [5]ram per guest, [6]gigahertz. See the get_input method in text_lines.py
+        # user input's order: [0]processor quantity, [1]number of cores, [2]ram per host
+        # [3]vcpu to core ratio, [4]hypervisor cores, [5]hypervisor_ram
+        # [6]guest vcpus, [7]ram per guest, [8]gigahertz. See the get_input method in text_lines.py
 
         if user_input:
             processor_quantity = user_input[0]

@@ -1,7 +1,4 @@
-# frames.py:    The collection of frames for the main window.
-
-
-from tkinter import Frame, E, BOTH
+from tkinter import Frame
 
 
 class FrameCollection:
@@ -24,7 +21,6 @@ class FrameCollection:
         }
 
     def init_frames(self):
-        # initialize frames
         frame_dict = self.get_frames()
 
         for frame in frame_dict.values():
